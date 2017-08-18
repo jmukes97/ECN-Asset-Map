@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+<html>
+	
+	<head>
+		<script>
+		var GWay = ["Citgo"+"<br>"+"3800 Conner St."+"<br>","Mobil"+"<br>"+" 12517 Mack Ave"+"<br>","Valero "+"<br>"+" 14407 Mack Ave"+"<br>"];
+		function Gas(){
+			document.getElementById("Hamburgers").innerHTML=GWay[0]+"<br>"+GWay[1]+"<br>"+GWay[2]+"<br>";
+		}
+		var Spitals = ["St. John's Hospital"+"<br>"+"22101 Moross Rd. Detroit,MI","Samaritan Center"+"<br>"+"5555 Conner 2210 Detroit,MI"];
+		function Hos(){
+			document.getElementById("Hamburgers").innerHTML=Spitals[0]+"<br>"+"<br>"+Spitals[1]+"<br>";
+		}	
+		var FF = ["McDonalds"+"<br>"+"4200 Conner St. Detroit,MI"+"<br>","Popeyes Louisiana Kitchen"+"<br>"+"12218 E Warren Ave, Detroit, MI 48215"+"<br>","Burger King"+"<br>"+"12661 Mack Ave. Detroit,MI"];
+		function Food(){
+			document.getElementById("Hamburgers").innerHTML=FF[0]+"<br>"+FF[1]+"<br>"+FF[2]+"<br>";
+			
+		}
+		var Sch = ["Denby High School "+"<br>"+"12800 Kelly Rd, Detroit, MI,48224"," Marvin L. Winans Academy Of Performing Arts Elementary School"+"<br>"+" 9740 McKinney St, Detroit, MI 48224"," Wayne Elementary "+"<br>"+" 10633 Courville St, Detroit, MI 48224 "];
+		function Schools(){
+			document.getElementById("Hamburgers").innerHTML=Sch[0]+"<br>"+"<br>"+Sch[1]+"<br>"+"<br>"+Sch[2];
+		}
+		var Bank = ["Chase Bank"+"<br>"+" 7400 Gratiot Ave, Detroit, MI 48213"+"<br>","Bank of America"+"<br>"+"10700 Gratiot Ave, Detroit, MI 48213"+"<br>","Chase Atm"+"<br>"+"12300 Morang Ave, Detroit, MI 48224"];		
+		function Banks(){
+			document.getElementById("Hamburgers").innerHTML=Bank[0]+"<br>"+Bank[1]+"<br>"+Bank[2]+"<br>";
+		}	
+		var Chur = ["The Church of Jesus Christ of Latter-day Saints"+"<br>"+"4200 Conner St, Detroit, MI 48215"+"<br>"+"<br>"+"Canfield Church of God"+"<br>"+"12905 E Canfield St, Detroit, MI 48215"+"<br>"+"<br>"+"Pearly Gate Missionary Baptist Church"+"<br>"+"13213 E Canfield St, Detroit, MI 48215"+"<br>"+"<br>"+"Brown's Chapel Mssnry Baptist Church"+"<br>"+"12920 E Warren Ave, Detroit, MI 48215"]; 
+		function Churches(){
+			document.getElementById("Hamburgers").innerHTML=Chur;
+		}
+		var Liq = ["AAA Party Store "+"<br>"+"13023 E Warren Ave, Detroit,Mi 48215"+"<br>"+"<br>"+" First Class Liquor Inc "+"<br>"+" 13921 E Warren Ave, Detroit,Mi 48215"];
+		function Liquor(){
+			document.getElementById("Hamburgers").innerHTML=Liq;
+		}
+		var Park = 	"Balduck"+"<br>"+"5271 Canyon St, Detroit, MI 48236"+"<br>"+"<br>"+"Chandler Park"+"<br>"+"12801 Chandler Park Dr, Detroit, MI 48213";
+		function parks(){
+			document.getElementById("Hamburgers").innerHTML=Park;
+		}	
+		var Mrkt = 	["Save-A-Lot"+"<br>"+"15001 Houston Whittier St, Detroit, MI 48205","Harper Food Center"+"<br>"+"13999 Harper Ave, Detroit, MI 48213","DelPointe Food Center"+"<br>"+"16700 Harper Ave, Detroit, MI 48224","Public Foods"+"<br>"+"16226 E Warren Ave, Detroit, MI 48224"];
+		function Markets(){
+			document.getElementById("Hamburgers").innerHTML=Mrkt[0]+"<br>"+"<br>"+Mrkt[1]+"<br>"+"<br>"+Mrkt[2]+"<br>"+"<br>"+Mrkt[3];
+		}	
+		var Barber = ["Classics Barber Shop"+"<br>"+"12006 Morang Ave, Detroit, MI 48224" , "East Harper Barber Shop"+"<br>"+"15128 Harper Ave, Detroit, MI 48224" , "James Barbershop"+"<br>"+"15737 E Warren Ave, Detroit, MI 48224" , "Da Barber Shop"+"<br>"+"15609 Mack Ave, Detroit, MI 48224"];
+		function BarberShops(){
+			 document.getElementById("Hamburgers").innerHTML =Barber[0]+"<br>"+"<br>"+Barber[1]+"<br>"+"<br>"+Barber[2]+"<br>"+"<br>"+Barber[3];
+		 }
+		</script>
+	</head>
+	
+	<body style="background-color:#303030;">
+		<img src="download.png" width="250" height="100">
+		<h1 style="color:#CCCCCC;">ECN Local Asset Map</h1><br>
+		
+		<a href="index.html"style="color:#CCCCCC;">Home</a>
+		<a href="Banks.html"style="color:#CCCCCC;">Banks</a>
+		<a href="barber.html"style="color:#CCCCCC;">BarberShops</a>
+		<a href="Churches.html"style="color:#CCCCCC;">Churches</a>
+		<a href="food.html"style="color:#CCCCCC;">Fast Food</a>
+		<a href="Gas.html"style="color:#CCCCCC;">Gas Station</a>
+		<a href="Hospitals.html"style="color:#CCCCCC;">Hospitals</a>
+		<a href="Liquor.html"style="color:#CCCCCC;">Liquor Stores</a>
+		<a href="Markets.html"style="color:#CCCCCC;">Markets</a>
+		<a href="parks.html"style="color:#CCCCCC;">Parks</a>
+		<a href="school.html"style="color:#CCCCCC;">Schools</a><br><br>
+		
+		<img src="https://maps.googleapis.com/maps/api/staticmap?center=15932+Evanston,Detroit,Michigan,MI&zoom=13&size=700x400&maptype=roadmap&markers=color:blue%7Clabel:H%7C42.419836,-82.91437080000003&markers=color:blue%7Clabel:H%7C42.3902033,-82.98195829999997&markers=color:red%7Clabel:L%7C42.392952,-82.96655599999997&markers=color:red%7Clabel:L%7C42.3944385,-82.96271280000002&markers=color:gray%7Clabel:G%7C42.3839882,-82.96742519999998&markers=color:gray%7Clabel:G%7C42.3845768,-82.96793249999996&markers=color:gray%7Clabel:G%7C42.3867701,-82.95285660000002&markers=color:green%7Clabel:B%7C42.4027754,-82.99825579999998&markers=color:green%7Clabel:B%7C42.407601,-82.995161&markers=color:green%7Clabel:B%7C42.4282861,-82.9545488&markers=color:gray%7Clabel:G%7C42.3909039,-82.97036730000002&markers=color:gray%7Clabel:G%7C42.3875389,-82.94846129999996&markers=color:red%7Clabel:L%7C42.3902174,-82.97259830000002&markers=color:red%7Clabel:L%7C42.384497,-82.96740899999998&markers=color:orange%7Clabel:F%7C42.3879133,-82.9733933&markers=color:yellow%7Clabel:S%7C42.4157145,-82.95632080000001&markers=color:yellow%7Clabel:S%7C42.4133912,-82.94702189999998&markers=color:yellow%7Clabel:S%7C42.426665,-82.95685500000002&markers=color:yellow%7Clabel:S%7C42.409192,-82.92953599999998&markers=color:purple%7Clabel:C%7C42.3852751,-82.96818869999998&markers=color:purple%7Clabel:C%7C42.3890962,-82.96583720000001&markers=color:purple%7Clabel:C%7C42.390226,-82.96269589999997&markers=color:purple%7Clabel:C%7C42.3920402,-82.9674647&markers=color:brown%7Clabel:P%7C42.3970544,-82.9728993&markers=color:brown%7Clabel:P%7C42.4141379,-82.9170745&markers=color:orange%7Clabel:F%7C42.3897188,-82.9655571&markers=color:orange%7Clabel:F%7C42.3903844,-82.967338&markers=color:black%7Clabel:M%7C42.4092687,-82.9401281&markers=color:black%7Clabel:M%7C42.3932967,-82.9782369&markers=color:black%7Clabel:M%7C42.4047057,-82.9536893&markers=color:black%7Clabel:M%7C42.4152254,-82.9705121&markers=color:black%7Clabel:M%7C42.4152254,-82.9705121&markers=color:white%7Clabel:K%7C42.406382,-82.9578433&markers=color:white%7Clabel:K%7C42.4260491,-82.9509876&markers=color:white%7Clabel:K%7C42.400434,-82.945913&markers=color:white%7Clabel:K%7C42.388813,-82.9404296&key=AIzaSyBhu4v9jnvcK20Gjv8JAuCeG24Eo9aq3-0">
+		<p style="color:#CCCCCC;">H-Hospital</p>
+		<p style="color:#CCCCCC;">F-Fast Food</p>
+		<P style="color:#CCCCCC;">L-Liquor Store</P>
+		<p style="color:#CCCCCC;">G-Gas Station</p>
+		<p style="color:#CCCCCC;">C-Churches</p>
+		<p style="color:#CCCCCC;">B-Bank</p>
+		<p style="color:#CCCCCC;">P-Parks</p>
+		<p style="color:#CCCCCC;">M-Market</p>
+		<p style="color:#CCCCCC;">S-School</p>
+		<p style="color:#CCCCCC;">K-Barbershops</p>
+		
+		
+		<br> <button onclick="Hos()" type="submit">Hospitals</button>
+		<br> <button onclick="Food()" type="submit">Fast Food</button>
+		<br> <button onclick="Liquor()" type="submit">Liquor Store</button>
+		<br> <button onclick="Gas()" type="submit">Gas Stations</button>
+		<br> <button onclick="Churches()" type="submit">Churches</button>
+		<br> <button onclick="Banks()" type="submit">Bank</button>
+		<br> <button onclick="parks()" type="submit">Parks</button>
+		<br> <button onclick="Markets()" type="submit">Markets</button>
+		<br> <button onclick="Schools()" type="submit">Schools</button>
+		<br> <button onclick="BarberShops()" type="submit">Barber</button>
+		
+		<p id="Hamburgers" style="color:#CCCCCC;"></p><br>
+		
+		
+	</body>
+</html> 
