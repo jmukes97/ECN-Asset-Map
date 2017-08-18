@@ -1,0 +1,5 @@
+AIzaSyBhu4v9jnvcK20Gjv8JAuCeG24Eo9aq3-0
+
+This is my google maps static API key that we generated.
+if you want to use this website for your own please 
+generate a new key. 
